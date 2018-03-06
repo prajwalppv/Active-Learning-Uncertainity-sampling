@@ -1,6 +1,5 @@
 **************************************************************************************************
-Automation of Biological Reasearch - 02750
-Image Classification Project
+Image Classification using Active Learning - Uncertaininty sampling
 Author: Prajwal Prakash Vasisht
 Andrew ID: prajwalp@andrew.cmu.edu
 Last modified date : 12/10/2017
@@ -29,13 +28,13 @@ HOW TO RUN :
 Code descriptions:-
     This section outlays the function of each python file in the "Code" folder. More details are present as comments in the code file.
         
-        1) active.py - active.py contains the code for the active learner. It returns losses,accuracies and the trained active learner model to the calling function. 
+    1) active.py - active.py contains the code for the active learner. It returns losses,accuracies and the trained active learner model to the calling function. 
 
-        2) passiveRandomLearners.py - This file contains the code for passive and random learners.
+    2) passiveRandomLearners.py - This file contains the code for passive and random learners.
 
-        3) plot_active.py - This file is the driver program that compares the passive, random and Active learners and produces graphs of loss curves as a function of number of calls to the oracle and accuracy values for all 3 datasets for both gaussian naive bayes and random forest classifiers.
+    3) plot_active.py - This file is the driver program that compares the passive, random and Active learners and produces graphs of loss curves as a function of number of calls to the oracle and accuracy values for all 3 datasets for both gaussian naive bayes and random forest classifiers.
 
-        4) plot_passive.py - This file is the driver program that compares multiple base (passive) learners and plots graphs of the losses and accuracies as a function of number of data points seen(used).
+    4) plot_passive.py - This file is the driver program that compares multiple base (passive) learners and plots graphs of the losses and accuracies as a function of number of data points seen(used).
 
 Folder contents:-
     
