@@ -1,6 +1,5 @@
 **************************************************************************************************
 Image Classification using Active Learning - Uncertaininty sampling
-
 Author: Prajwal Prakash Vasisht
 Andrew ID: prajwalp@andrew.cmu.edu
 Last modified date : 12/10/2017
