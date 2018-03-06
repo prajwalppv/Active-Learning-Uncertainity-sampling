@@ -1,0 +1,26 @@
+Random forest:-
+Query by committee - Max entropy point 
+
+Format
+Setting x
+estimators =  , criterion = gini ----> accuracy -> easy -  , moderate -  , hard - 
+
+Setting 1:
+estimators = 100, criterion = gini ----> accuracy -> easy - 92 , moderate - 85, hard - 85
+
+Setting 2:
+estimators = 25 , criterion = gini ----> accuracy -> easy - 90 , moderate - 82 , hard - 
+
+Setting 3:
+estimators = 50 , criterion = gini ----> accuracy -> easy - 91.69 , moderate - 83.08 , hard - 
+
+Setting 4:
+estimators = 50, max_depth = 10 , criterion = gini ----> accuracy -> easy - 90.1 , moderate - 82.88, hard - 
+
+Setting 5:
+estimators = 100, max_depth = 25 , criterion = gini ----> accuracy -> easy - 92.29 , moderate - 84.84 , hard - 86.48
+
+
+Gaussian NB:
+
+ accuracy -> easy - 90.49 , moderate - 88.5, hard - 88.68
